@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEA6F6952AD4838500928199 /* simple-ios-http-hook Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EEA6F6942AD4838500928199 /* simple-ios-http-hook Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EEA6F69A2AD4838500928199 /* simple_ios_http_hookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6F6992AD4838500928199 /* simple_ios_http_hookApp.swift */; };
+		EEA6F69C2AD4838500928199 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6F69B2AD4838500928199 /* ContentView.swift */; };
+		EEA6F69E2AD4838500928199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA6F69D2AD4838500928199 /* Assets.xcassets */; };
+		EEA6F6A12AD4838500928199 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA6F6A02AD4838500928199 /* Preview Assets.xcassets */; };
+		EEA6F6AF2AD5C56600928199 /* HttpRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6F6AE2AD5C56600928199 /* HttpRequestService.swift */; };
+		EEA6F6B32AD5C78C00928199 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6F6B22AD5C78C00928199 /* Toast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEA6F6962AD4838500928199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEA6F6882AD4838400928199 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEA6F6932AD4838500928199;
+			remoteInfo = "simple-ios-http-hook Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEA6F6A72AD4838500928199 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EEA6F6952AD4838500928199 /* simple-ios-http-hook Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EEA6F68E2AD4838400928199 /* simple-ios-http-hook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-ios-http-hook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA6F6942AD4838500928199 /* simple-ios-http-hook Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-ios-http-hook Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA6F6992AD4838500928199 /* simple_ios_http_hookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_ios_http_hookApp.swift; sourceTree = "<group>"; };
+		EEA6F69B2AD4838500928199 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEA6F69D2AD4838500928199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA6F6A02AD4838500928199 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEA6F6AB2AD49EB700928199 /* simple-ios-http-hook-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "simple-ios-http-hook-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EEA6F6AE2AD5C56600928199 /* HttpRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestService.swift; sourceTree = "<group>"; };
+		EEA6F6B22AD5C78C00928199 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		EEA6F6B52AD5DEE900928199 /* ConfigExmple.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ConfigExmple.xcconfig; sourceTree = "<group>"; };
+		EEA6F6B62AD5E54E00928199 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA6F6912AD4838500928199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA6F6872AD4838400928199 = {
+			isa = PBXGroup;
+			children = (
+				EEA6F6B62AD5E54E00928199 /* Config.xcconfig */,
+				EEA6F6B52AD5DEE900928199 /* ConfigExmple.xcconfig */,
+				EEA6F6982AD4838500928199 /* simple-ios-http-hook Watch App */,
+				EEA6F68F2AD4838400928199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA6F68F2AD4838400928199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA6F68E2AD4838400928199 /* simple-ios-http-hook.app */,
+				EEA6F6942AD4838500928199 /* simple-ios-http-hook Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA6F6982AD4838500928199 /* simple-ios-http-hook Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				EEA6F6AB2AD49EB700928199 /* simple-ios-http-hook-Watch-App-Info.plist */,
+				EEA6F6992AD4838500928199 /* simple_ios_http_hookApp.swift */,
+				EEA6F69B2AD4838500928199 /* ContentView.swift */,
+				EEA6F69D2AD4838500928199 /* Assets.xcassets */,
+				EEA6F69F2AD4838500928199 /* Preview Content */,
+				EEA6F6AE2AD5C56600928199 /* HttpRequestService.swift */,
+				EEA6F6B22AD5C78C00928199 /* Toast.swift */,
+			);
+			path = "simple-ios-http-hook Watch App";
+			sourceTree = "<group>";
+		};
+		EEA6F69F2AD4838500928199 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEA6F6A02AD4838500928199 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA6F68D2AD4838400928199 /* simple-ios-http-hook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA6F6A82AD4838500928199 /* Build configuration list for PBXNativeTarget "simple-ios-http-hook" */;
+			buildPhases = (
+				EEA6F68C2AD4838400928199 /* Resources */,
+				EEA6F6A72AD4838500928199 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA6F6972AD4838500928199 /* PBXTargetDependency */,
+			);
+			name = "simple-ios-http-hook";
+			productName = "simple-ios-http-hook";
+			productReference = EEA6F68E2AD4838400928199 /* simple-ios-http-hook.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		EEA6F6932AD4838500928199 /* simple-ios-http-hook Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA6F6A42AD4838500928199 /* Build configuration list for PBXNativeTarget "simple-ios-http-hook Watch App" */;
+			buildPhases = (
+				EEA6F6902AD4838500928199 /* Sources */,
+				EEA6F6912AD4838500928199 /* Frameworks */,
+				EEA6F6922AD4838500928199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "simple-ios-http-hook Watch App";
+			productName = "simple-ios-http-hook Watch App";
+			productReference = EEA6F6942AD4838500928199 /* simple-ios-http-hook Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA6F6882AD4838400928199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EEA6F68D2AD4838400928199 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EEA6F6932AD4838500928199 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EEA6F68B2AD4838400928199 /* Build configuration list for PBXProject "simple-ios-http-hook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA6F6872AD4838400928199;
+			productRefGroup = EEA6F68F2AD4838400928199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA6F68D2AD4838400928199 /* simple-ios-http-hook */,
+				EEA6F6932AD4838500928199 /* simple-ios-http-hook Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA6F68C2AD4838400928199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA6F6922AD4838500928199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA6F6A12AD4838500928199 /* Preview Assets.xcassets in Resources */,
+				EEA6F69E2AD4838500928199 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA6F6902AD4838500928199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA6F6AF2AD5C56600928199 /* HttpRequestService.swift in Sources */,
+				EEA6F6B32AD5C78C00928199 /* Toast.swift in Sources */,
+				EEA6F69C2AD4838500928199 /* ContentView.swift in Sources */,
+				EEA6F69A2AD4838500928199 /* simple_ios_http_hookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEA6F6972AD4838500928199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEA6F6932AD4838500928199 /* simple-ios-http-hook Watch App */;
+			targetProxy = EEA6F6962AD4838500928199 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEA6F6A22AD4838500928199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEA6F6A32AD4838500928199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EEA6F6A52AD4838500928199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"simple-ios-http-hook Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JTQ5T4FRVN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "simple-ios-http-hook-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "simple-ios-http-hook";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiz.simple-ios-http-hook.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		EEA6F6A62AD4838500928199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"simple-ios-http-hook Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JTQ5T4FRVN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "simple-ios-http-hook-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "simple-ios-http-hook";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiz.simple-ios-http-hook.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		EEA6F6A92AD4838500928199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTQ5T4FRVN;
+				INFOPLIST_KEY_CFBundleDisplayName = "simple-ios-http-hook";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiz.simple-ios-http-hook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EEA6F6AA2AD4838500928199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTQ5T4FRVN;
+				INFOPLIST_KEY_CFBundleDisplayName = "simple-ios-http-hook";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruiz.simple-ios-http-hook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA6F68B2AD4838400928199 /* Build configuration list for PBXProject "simple-ios-http-hook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA6F6A22AD4838500928199 /* Debug */,
+				EEA6F6A32AD4838500928199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA6F6A42AD4838500928199 /* Build configuration list for PBXNativeTarget "simple-ios-http-hook Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA6F6A52AD4838500928199 /* Debug */,
+				EEA6F6A62AD4838500928199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA6F6A82AD4838500928199 /* Build configuration list for PBXNativeTarget "simple-ios-http-hook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA6F6A92AD4838500928199 /* Debug */,
+				EEA6F6AA2AD4838500928199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA6F6882AD4838400928199 /* Project object */;
+}
